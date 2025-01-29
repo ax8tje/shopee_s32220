@@ -1,6 +1,5 @@
 package pl.pjatk.shopee_s32220;
 
-import  org.mockito.Mockito;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
