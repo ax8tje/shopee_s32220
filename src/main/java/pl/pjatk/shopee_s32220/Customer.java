@@ -8,15 +8,8 @@ public class Customer {
         this.id = id;
         this.balance = balance;
     }
-
-    public Long getId(){
-        return id;
-    }
     public double getBalance(){
         return balance;
-    }
-    public void setId(Long id){
-        this.id = id;
     }
     public void setBalance(double balance){
         this.balance = balance;
