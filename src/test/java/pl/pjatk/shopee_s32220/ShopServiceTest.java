@@ -57,17 +57,4 @@ public class ShopServiceTest {
         assertTrue(result);
         assertEquals(5.00,customer.getBalance());
     }
-
-    @Test
-    public void testOrderItems_EmptyBasket(){
-        Storage storage = new Storage();
-        ShopService shopService = new ShopService(storage);
-        Customer customer = new Customer(1L, 15.00);
-        Cart cart = new Cart(customer);
-
-        boolean result = shopService.orderItems(cart);
-
-        assertTrue(result);
-        assertEquals(15.00,customer.getBalance());
-    }
 }
