@@ -14,6 +14,7 @@ public class Storage {
         products.add(new Product("milk", 3.50));
         products.add(new Product("beer", 5.00));
         products.add(new Product("breed", 2.00));
+        products.add(new Product("apple", 1.00));
     }
 
     public Product getProducts(String productName) {
